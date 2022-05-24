@@ -1,0 +1,94 @@
+/* changing the box-sizing for the overall page */
+*{
+    box-sizing: border-box;
+}
+
+/* resetting the margin of the body to 0 */
+body{
+    margin: 0;
+}
+
+/* styling the sections of the page */
+section{
+    display: flex;
+    width: 85%;
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ /* styling the divs with class name "img-box" */
+ .img-box{
+     width: 70%;
+    
+ }
+
+ /* styling the divs with class name "text" */
+ .text{
+     text-align: end;
+     width: 20%;
+ }
+
+ /* selecting the img tag under each div with class name "img-box", setting the images to occupy the full width of the div */
+ .img-box img{
+     width: 100%;
+ }
+
+ /* selecting the section with class name "jm-review", making it 'float' to the right */
+ .jm-review{
+     float: right;
+     margin-right: 40px;
+ }
+
+ /* fixing the outcome of the floating */
+ .clearfix{
+     clear: both;
+ }
+
+ /* changing the font-size and color of the h1 tag with class name "customer" */
+ .customer{
+     font-size: 40px;
+     color: rgb(177, 14, 14);
+ }
+
+ /* changing the font-size of the h4 with class name "customer-subtitle" */
+ .customer-subtitle{
+     font-size: 20px;
+ }
+
+ /* changing the font-size of the p tag with class name "testimony" */
+ .testimony{
+     font-size: 25px;
+ }
+
+/* selecting the div with id name "right-text", aligning the text in it to the left */
+ #right-text{
+     text-align: left;
+ }
+
+ /* selecting the span and chaning the color of the text contained in the element */
+ span{
+     color: rgb(97, 89, 89);
+ }
+
+ /* styling the anchor tag with a hyper-reference leading nowhere*/
+ a{
+     text-decoration: none;
+     color: rgb(99, 97, 97);
+ }
+
+ /* changing the appearance of the text in the anchor tag when a user hovers it */
+ a:hover{
+     color: #000;
+     border-bottom: 2px solid #000;
+ }
+
+ /* changing the color of the h4 tag under the h1 tags(you can select it using the class name, I just took the high road) */
+ h1 + h4{
+     color: rgb(189, 186, 186);
+ }
+
+ /* adding a box-shadow to the images, for extra finesse */
+ img{
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
+ }

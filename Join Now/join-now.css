@@ -1,0 +1,78 @@
+/* changing the box-sizing for the overall page */
+*{
+    box-sizing: border-box;
+}
+
+/* resetting the margin of the body to 0 */
+body{
+    margin: 0;
+
+}
+
+/* changing the position to relative */
+main{
+    position: relative;
+}
+
+/* styling the h1 */
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(177, 14, 14);
+}
+
+
+/* styling the form */
+form{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);   
+}
+
+/* styling the inputs of types, "text, email, password" */
+input[type = text],
+input[type = email],
+input[type = password]{
+    width: 350px;
+    height: 30px;
+}
+
+/* styling the select tag */
+select{
+    width: 350px;
+    background-color: #179b3aa6;
+    border-radius: 3px;
+    border-color: #179b3a;
+}
+
+/* styling all the input tags */
+input{
+    background-color: rgba(177, 14, 14, 0.452);
+    border: 1px solid rgb(177, 14, 14);
+    border-radius: 2px;
+
+}
+
+/* styling the input box of type "submit" */
+input[type = submit]{
+    background-color: #0d4d1d;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    border-color: #0d4d1d;
+    border-radius: 6px;
+}
+
+/* chaning the color of the anchor tag */
+a{
+    color: navy;
+}
+
+/* styling the checkbox */
+input[type = checkbox]{
+    outline: 1px solid rgb(177, 14, 14);
+}
+
+
+
+

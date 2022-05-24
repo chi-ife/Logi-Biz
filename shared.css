@@ -1,0 +1,83 @@
+/* Styling the header of class name "main-header"(bg color, full width, padding) */
+.main-header{
+    background-color: #179b3a;
+    width: 100%;
+    padding: 15px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    
+}
+
+/* Styling the div under the header of class name "main-header", using child combinator */
+.main-header > div{
+    display: inline-block;
+
+}
+
+/* Styling the anchor tag of class name "brand-logo" */
+.brand-logo{
+    text-decoration: none;
+    color: #07270f;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* styling the nav with class name "main-nav" */
+.main-nav{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 116px);
+
+}
+
+/* styling the list with class name "main-nav-links */
+.main-nav-links{
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    
+}
+
+/* styling the each nav link */
+.main-nav-link{
+    display: inline-block;
+    margin: 0 16px;
+    
+}
+
+/* styling the child elements(anchor tags) under the parent elements(li) with shared class name "main-nav-link" */
+.main-nav-link > a{
+    text-decoration: none;
+    color: #07270f;
+}
+
+/* styling the child element(anchor tag) under the parent element(li) with class name "main-nav-link-cta" */
+.main-nav-link-cta> a{
+    background-color: rgb(177, 14, 14);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+/* adding a style for when the link is hovered over */
+.main-nav-link > a:hover{
+    color: #fff;
+    border-bottom: 2px #fff solid;
+}
+
+/* adding a style for when the link is hovered over */
+.main-nav-link-cta> a:hover{
+    color:  rgb(177, 14, 14);
+    background-color: #fff;
+    border: none;
+}
+
+/* styling the footer */
+footer{
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+}

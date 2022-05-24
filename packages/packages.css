@@ -1,0 +1,92 @@
+/* changing the box-sizing for the overall page */
+*{
+    box-sizing: border-box;
+}
+
+/* resetting the margin of the body to 0 */
+body{
+    margin: 0;
+}
+
+/* moving the main content of the page further form the top */
+main{
+    margin-top: 110px;
+}
+
+/* setting the background image and its properties */
+.background{
+    background-image: url(./pics.jpg);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -2;
+    background-size: cover;
+    top: 0;
+}
+
+/* stlyling the packages */
+.package{
+    border: 4px solid #07270f;
+    margin: 16px 0;
+    width: 85%;
+    border-left: none;
+    background: #1ce050;
+
+}
+
+/* styling the anchor tags under the packages */
+.package a{
+    text-decoration: none;
+    color: inherit;
+    padding: 24px;
+    display: block;
+}
+
+/* adding a style for when the packages are hovered over */
+.package:hover{
+    border-color: rgb(177, 14, 14);
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* styling the package subtitles */
+.package_subtitle{
+    color: #979797;
+}
+
+/* styling the package info */
+.package_info{
+    color: #07270f;
+    border: 1px solid #07270f;
+    background-color: #fff;
+    padding: 16px;
+}
+
+/* styling the second package with id name "plus" */
+#plus{
+    background-color: rgba(213, 255, 220, 0.9);
+    float: right;
+    border-right: none;
+    border-left: 4px solid #07270f;
+    text-align: right;
+    position: relative;
+}
+
+/* fixing the outcome of the float property */
+.clearfix{
+    clear: both;
+}
+
+/* adding the color ff the left border */
+#plus:hover{
+    border-left-color: rgb(177, 14, 14);
+}
+
+/* styling the h2 with class name "recommended" */
+.recommended{
+    position: absolute;
+    top: 8px;
+    color: #fff;
+    background: rgb(177, 14, 14);
+    padding: 8px;
+
+}
